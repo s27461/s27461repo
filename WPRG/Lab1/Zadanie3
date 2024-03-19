@@ -2,17 +2,51 @@
 <html>
 <head>
     <title>Page Title</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Special characters</h1>
-<p>-<sup>1</sup>/<sub>2</sub>x<sup>2</sup> + 4x + 10<br>
-    &rAarr; &Delta; = 16 + 20<br>
-    &rAarr;&radic; &Delta; = &radic;26<br>
-    x<sub>1</sub> = 4 + &radic;26 &emsp; x<sub>2</sub> = 4 - &radic;26<br>
-    <br>
-    Author: Friedrich Bömm, 2022.
-</p>
+<table>
+    <tr>
+        <td colspan="3">Komórka 1</td>
+        <td>Komórka 2</td>
+        <td>Komórka 3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Komórka 4</td>
+        <td>Komórka 5</td>
+        <td>Komórka 6</td>
+        <td>Komórka 7</td>
+        <td>Komórka 8</td>
+    </tr>
+    <tr>
+        <td>Komórka 9</td>
+        <td>Komórka 10</td>
+        <td rowspan="2">Komórka 11</td>
+        <td>Komórka 12</td>
+    </tr>
+    <tr>
+        <td>Komórka 13</td>
+        <td rowspan="3">Komórka 14</td>
+        <td>Komórka 15</td>
+        <td>Komórka 16</td>
+    </tr>
+    <tr>
+        <td>Komórka 17</td>
+        <td colspan="2">Komórka 18</td>
+        <td>Komórka 19</td>
+    </tr>
+    <tr>
+        <td>Komórka 20</td>
+        <td>Komórka 21</td>
+        <td colspan="2">Komórka 22</td>
+    </tr>
+
+</table>
 
 </body>
 </html>
