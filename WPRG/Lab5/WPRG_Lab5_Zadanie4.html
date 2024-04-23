@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:weight@100;300;400;700;900" rel="stylesheet">
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+            background-color: grey;
+        }
+
+        .logo {
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                width: 100%;
+            }
+        }
+
+        .container {
+            background-color: white;
+        }
+
+
+        .box1, .box2 {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .box1{
+            background: gray;
+        }
+
+        @media (max-width: 768px) {
+            .box1, .box2 {
+                flex-wrap: wrap;
+            }
+        }
+
+        .box2 {
+            padding: 15px;
+        }
+
+        .box11, .box12 {
+            width: 100%;
+        }
+
+        .box12 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            justify-items: center;
+            align-content: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .box12 {
+                display: block;
+            }
+        }
+
+        .box21, .box22, .box23 {
+            width: 100%;
+            overflow-wrap: break-word;
+        }
+        .box22, .box23{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2b{
+            width: 100%;
+            height: 100%;
+        }
+        .box3 {
+            display: grid;
+            align-items: center;
+            height: 124px;
+            background-color: gray;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+        }
+
+        .a1, a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .a1 {
+                border-bottom: 1px solid black;
+                border-right: none;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            a {
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .box221{
+            width: 100%;
+            margin: 10px;
+            background-color: green;
+            height: 100px;
+        }
+        .box222{
+            width: 100%;
+            margin: 10px;
+            background-color: blue;
+            height: 100px;
+        }
+        .box220{
+            margin: 10px;
+            background-color: red;
+            height: 100px;
+        }
+        .dolne{
+            display: flex;
+        }
+        .box2c{
+            width: 100%;
+            height: 100%;
+        }
+        .box223{
+            background-color: red;
+            height: 100%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1">
+        <div class="box12">
+            <a href="a" class="a1">Home</a>
+            <a href="a" class="a1">Info</a>
+            <a href="a" class="a1">Forum</a>
+            <a href="a">Contact</a>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="box21">
+            <h1>Title 1</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a typ</p>
+        </div>
+<div class="box22">
+        <div class="box2b">
+            <div class="box220">eeeee</div>
+            <div class="dolne">
+            <div class="box221">ee</div>
+            <div class="box222">e</div>
+            </div>
+        </div>
+</div>
+        <div class="box23">
+            <div class="box2c">
+            <div class="box223">e</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box3">
+    <footer class="footer">
+        Copyright
+    </footer>
+</div>
+</body>
+</html>

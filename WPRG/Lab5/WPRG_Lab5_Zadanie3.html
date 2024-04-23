@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .row{
+            display: flex;
+        }
+        .equal-width{
+            text-align: center;
+            background: lightblue;
+            width: 100%;
+            height: 30px;
+            padding: 30px;
+            margin: 10px;
+        }
+        .row2{
+            display: flex;
+        }
+        .fixed-percentage, .flexible{
+            width: 40%;
+            text-align: center;
+            background: lightblue;
+            height: 30px;
+            padding: 30px;
+            margin: 10px;
+        }
+        .flexible{
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="equal-width">Element 1</div>
+    <div class="equal-width">Element 2</div>
+    <div class="equal-width">Element 3</div>
+</div>
+<div class="row2">
+    <div class="fixed-percentage">Element 4</div>
+    <div class="flexible">Element 5</div>
+</div>
+</body>
+</html>
